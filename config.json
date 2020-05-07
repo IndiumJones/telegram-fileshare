@@ -1,0 +1,9 @@
+{
+	"version":"1.1.1",
+	"token":"",
+	"password":"",
+	"users":[],
+	"supportedFormats":["jpg","jpeg","jpe","png","svg","ico","mpeg","mpg","mpe","mp4","mp3","wav","pdf","txt"],
+	"maxSize":20971520,
+	"downloadPath":"."
+}
