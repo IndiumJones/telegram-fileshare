@@ -1,8 +1,9 @@
 # telegram-fileshare
 Telegram Bot that automatically downloads the files you send
 
-* [english version] (#english)
-* [deutsche Version] (#german)
+- [Install](#install)
+- [Introduction](#introduction)
+- [Contributors](#contributors)
 
 ## english
 
@@ -39,5 +40,7 @@ Telegram Bot that automatically downloads the files you send
 #### Version 1.1.1 {#de-version-1_1_1}
 #### Version 1.1.0 {#de-version-1_1_0}
 #### Version 1.0.0 {#de-version-1_0_0}
+
+## Install
 
 ### Einrichtung {#de-setup}
