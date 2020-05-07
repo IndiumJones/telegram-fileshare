@@ -9,17 +9,17 @@ Telegram Bot that automatically downloads the files you send
 ### Table of Contents
 
 - [description](#description)
-  - [version 1.1.1](#version-111)
-  - [version 1.1.0](#version-110)
-  - [version 1.0.0](#version-100)
+  - [version 1.1.1](#new-in-version-111)
+  - [version 1.1.0](#new-in-version-110)
+  - [version 1.0.0](#new-in-version-100)
 
 - [setup](#setup)
 
 ### description
 
-#### version 1.1.1
-#### version 1.1.0
-#### version 1.0.0
+#### new in version 1.1.1
+#### new in version 1.1.0
+#### new in version 1.0.0
 
 ### setup
 
@@ -28,16 +28,16 @@ Telegram Bot that automatically downloads the files you send
 ### Inhalt
 
 * [Beschreibung](#Beschreibung)
-  * [Version 1.1.1](#Version-111)
-  * [Version 1.1.0](#Version-110)
-  * [Version 1.0.0](#Version-100)
+  * [Version 1.1.1](#neu-in-Version-111)
+  * [Version 1.1.0](#neu-in-Version-110)
+  * [Version 1.0.0](#neu-in-Version-100)
 
 * [Einrichtung](#Einrichtung)
 
 ### Beschreibung
 
-#### Version 1.1.1
-#### Version 1.1.0
-#### Version 1.0.0
+#### neu in Version 1.1.1
+#### neu in Version 1.1.0
+#### neu in Version 1.0.0
 
 ### Einrichtung
