@@ -53,11 +53,11 @@ Treffen Sie verschiedene Einstellungen, um den Bot sicherer zu machen und Die k�
 1. Erstellen Sie einen **Ordner**, in welchem die Dateien gespeichert werden sollen
 1. Konfigurieren Sie Ihren Bot mithilfe der **config.json** Datei
     * Manuell über einen Editor
-        1. Öffnen Sie die **config.json** Datei mit einem Editor und fügen Sie den **Token** ein, den Ihnen der [@BotFather](https://t.me/botfather) geschickt hat
-        1. Legen Sie ein **Passwort** fest
-        1. Passen Sie die Liste der **unterstützten Dateiformate** an
-        1. Legen Sie eine **maximale Dateigröße** fest (Telegram unterstützt nur Dateien bis 20 MB)
-        1. Geben Sie den **Ordner** an, in welchem die **Dateien gespeichert** werden sollen (Stellen Sie sicher, dass der Ordner existiert)
+        a. Öffnen Sie die **config.json** Datei mit einem Editor und fügen Sie den **Token** ein, den Ihnen der [@BotFather](https://t.me/botfather) geschickt hat
+        a. Legen Sie ein **Passwort** fest
+        a. Passen Sie die Liste der **unterstützten Dateiformate** an
+        a. Legen Sie eine **maximale Dateigröße** fest (Telegram unterstützt nur Dateien bis 20 MB)
+        a. Geben Sie den **Pfad** des Ordners an, den Sie gerade erstellt haben
     * Über das [Formular](https://software.pallindium.de/fileshare/configgenerator)
 1. **Starten Sie das Programm**, indem Sie *node fileshare_x_x_x.js* eingeben
 
@@ -90,4 +90,84 @@ Fehler bei der Authentifizierung des Nutzers
 
 ## english
 
-*we're working on a translation*
+### content
+
+- [description](#description)
+  - [version 1.1.1](#new-in-version-111)
+  - [version 1.1.0](#new-in-version-110)
+  - [version 1.0.0](#new-in-version-100)
+- [setup](#setup)
+- [error code](#error-codes)
+
+### description
+
+Create your very own Telegram bot. You and your friends can easily send files
+and the bot downloads them for you. You can configure the bot as you wish.
+
+#### new in version 1.1.1
+
+* user defined file names
+
+#### new in version 1.1.0
+
+* the user can set the maximal file size
+* the user can specify a folder where the file will be stored
+* bug fixed:
+	* file extension can be in capital and lowercase letters
+	
+#### new in version 1.0.0
+
+* custom password
+* list of supported file extensions
+
+### setup
+
+1. download and install [Node.js](https://nodejs.org/en/)
+1. download the file: **fileshare_x_x_x.js**
+1. open the **command shell** (cmd.exe) and open the folder where the file fileshare_x_x_x.js is located
+1. download the **'telegram-bot-api'** by entering the command *npm i telegram-bot-api*
+1. create a **Telegram bot**
+    1. open the chat with [@BotFather](https://t.me/botfather)
+    1. type */newbot*
+    1. specify a name and a username for the bot
+    1. you will receive a token for the bot
+    1. type */setjoingroups*
+    1. set the value to *Disable*
+    1. you can save more informations about the bot: */setdescription, /setabouttext, /setuserpic*
+1. create a **folder** where the files should be saved
+1. configure the bot by editing the **config.json** file
+    * manualy with an editor
+        a. open the **config.json** file and add the **token** from [@BotFather](https://t.me/botfather)
+        a. set a **password**
+        a. customize the list of **supported file extensions**
+        a. set **maximal file size** (Telegram only support files up to 20 MB)
+        a. set the **path** to the destination of the folder you just have created
+    * or using the [form](https://software.pallindium.de/fileshare/configgenerator)
+1. **start the bot** by typing *node fileshare_x_x_x.js* into the command shell
+
+### error codes
+
+#### T
+
+An error occured during the download
+* **T1:** http-status-codes (unable to download the file)
+* **T2:** content-type (unable to download the file)
+* **T3:** file informations (error during the fetching process)
+
+#### F
+
+The file does not match the bots requirements
+* **F1:** file format (the file extension does not match the file extension list)
+* **F2:** file size (file exceeds the maximal file size, the maximum is 20 MB)
+* **F3:** file name (file already exists)
+
+#### C
+
+An error occured during the configuation process
+* **C1:** open config (cannot open config.json)
+* **C2:** write config (error during the saving process)
+
+#### A
+
+An error occured during the authentification process
+* **A1:** wrong password
