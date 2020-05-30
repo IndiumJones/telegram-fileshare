@@ -53,11 +53,11 @@ Treffen Sie verschiedene Einstellungen, um den Bot sicherer zu machen und Die k�
 1. Erstellen Sie einen **Ordner**, in welchem die Dateien gespeichert werden sollen
 1. Konfigurieren Sie Ihren Bot mithilfe der **config.json** Datei
     * Manuell über einen Editor
-        a. Öffnen Sie die **config.json** Datei mit einem Editor und fügen Sie den **Token** ein, den Ihnen der [@BotFather](https://t.me/botfather) geschickt hat
-        a. Legen Sie ein **Passwort** fest
-        a. Passen Sie die Liste der **unterstützten Dateiformate** an
-        a. Legen Sie eine **maximale Dateigröße** fest (Telegram unterstützt nur Dateien bis 20 MB)
-        a. Geben Sie den **Pfad** des Ordners an, den Sie gerade erstellt haben
+        1. Öffnen Sie die **config.json** Datei mit einem Editor und fügen Sie den **Token** ein, den Ihnen der [@BotFather](https://t.me/botfather) geschickt hat
+        1. Legen Sie ein **Passwort** fest
+        1. Passen Sie die Liste der **unterstützten Dateiformate** an
+        1. Legen Sie eine **maximale Dateigröße** fest (Telegram unterstützt nur Dateien bis 20 MB)
+        1. Geben Sie den **Pfad** des Ordners an, den Sie gerade erstellt haben
     * Über das [Formular](https://software.pallindium.de/fileshare/configgenerator)
 1. **Starten Sie das Programm**, indem Sie *node fileshare_x_x_x.js* eingeben
 
@@ -137,11 +137,11 @@ and the bot downloads them for you. You can configure the bot as you wish.
 1. create a **folder** where the files should be saved
 1. configure the bot by editing the **config.json** file
     * manualy with an editor
-        a. open the **config.json** file and add the **token** from [@BotFather](https://t.me/botfather)
-        a. set a **password**
-        a. customize the list of **supported file extensions**
-        a. set **maximal file size** (Telegram only support files up to 20 MB)
-        a. set the **path** to the destination of the folder you just have created
+        1. open the **config.json** file and add the **token** from [@BotFather](https://t.me/botfather)
+        1. set a **password**
+        1. customize the list of **supported file extensions**
+        1. set **maximal file size** (Telegram only support files up to 20 MB)
+        1. set the **path** to the destination of the folder you just have created
     * or using the [form](https://software.pallindium.de/fileshare/configgenerator)
 1. **start the bot** by typing *node fileshare_x_x_x.js* into the command shell
 
