@@ -58,7 +58,6 @@ Treffen Sie verschiedene Einstellungen, um den Bot sicherer zu machen und Die k�
         1. Passen Sie die Liste der **unterstützten Dateiformate** an
         1. Legen Sie eine **maximale Dateigröße** fest (Telegram unterstützt nur Dateien bis 20 MB)
         1. Geben Sie den **Pfad** des Ordners an, den Sie gerade erstellt haben
-    * Über das [Formular](https://software.pallindium.de/fileshare/configgenerator)
 1. **Starten Sie das Programm**, indem Sie *node fileshare_x_x_x.js* eingeben
 
 ### Fehlercodes
@@ -142,7 +141,6 @@ and the bot downloads them for you. You can configure the bot as you wish.
         1. customize the list of **supported file extensions**
         1. set **maximal file size** (Telegram only support files up to 20 MB)
         1. set the **path** to the destination of the folder you just have created
-    * or using the [form](https://software.pallindium.de/fileshare/configgenerator)
 1. **start the bot** by typing *node fileshare_x_x_x.js* into the command shell
 
 ### error codes
